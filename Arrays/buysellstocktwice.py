@@ -13,6 +13,8 @@
 # to avoid using another array for reverse we can add the previous max profit of forward iteration( because  max profit
 # in the array will be already in ascending order) by adding element at (i-1)th index.
 
+# Leetcode 123
+
 def buy_sell_stock_at_most_twice(prices):
     min_price=float('inf')
     max_profit=0

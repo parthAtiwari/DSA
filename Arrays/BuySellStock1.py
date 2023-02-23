@@ -1,4 +1,5 @@
 # gain max profit by buying and selling a stock one time
+# Leetcode 121
 def buy_sell_stock_once(prices):
     max_profit = 0
     min_price = float('inf')

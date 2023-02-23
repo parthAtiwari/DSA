@@ -1,5 +1,6 @@
+# Leetcode 75
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    def sort_colors(self, nums: List[int]) -> None:
         def solve(i):
             pivot = nums[i]
             smaller = 0
