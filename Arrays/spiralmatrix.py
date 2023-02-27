@@ -1,5 +1,5 @@
 # naive approach for m*n matrix
-def spiral_matrix(mat):
+def spiralmatrix(mat):
     left,right=0,len(mat[0])
     top,bottom=0,len(mat)
     spiral=[]
@@ -21,7 +21,7 @@ def spiral_matrix(mat):
     return spiral
 
 # other pythonic approach for n*n matrix
-def spiral_matrix(mat):
+def spiralmatrix(mat):
     def matrix_layer_clockwise(idx):
         if idx==len(mat)-idx-1:
             spiral.add(mat[idx][idx])
